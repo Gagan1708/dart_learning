@@ -14,6 +14,14 @@ void main() {
   Object firstName = 'Gagan'; // Here firstName is not fixed to String
   print(firstName);
 
-  firstName = 10; // Here we have changed the firstName value from String to int to test
+  firstName =
+      10; // Here we have changed the firstName value from String to int to test
   print(firstName);
+
+  // We can use dynamic as the type for the same purposes of Object type
+  dynamic lastName = 'Boga';
+  print(lastName);
+
+  lastName = 20; // Here we have changed the lastName from Strint to int
+  print(lastName);
 }
