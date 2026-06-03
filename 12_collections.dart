@@ -1,4 +1,4 @@
-// Dart has built-in list, map, and set collections
+/// Dart has built-in list, map, and set collections
 
 void main() {
   // List
